@@ -3,7 +3,6 @@
 
 # # Kullanıcıdan alınan cümledeki ünlü harf sayısını bulan python kodu.
 
-# In[ ]:
 
 
 cumle = input("Lütfen bir cümle girin: ")
@@ -16,8 +15,6 @@ for harf in cumle:
         print('Ünlü harf sayısı:',unlu_sayisi)
 
 
-# In[6]:
-
 
 cumle = input("Lütfen bir cümle girin: ")
 unlu_sayisi = 0
@@ -29,7 +26,6 @@ for harf in cumle:
     print('Ünlü harf sayısı:',unlu_sayisi)
 
 
-# In[7]:
 
 
 cumle = input("Lütfen bir cümle girin: ")
@@ -42,7 +38,6 @@ for harf in cumle:
 print('Ünlü harf sayısı:',unlu_sayisi)
 
 
-# In[8]:
 
 
 cumle = input("Lütfen bir cümle girin: ")
@@ -57,8 +52,6 @@ print(f"Girdiğiniz cümledeki ünlü harf sayısı: {unlu_sayisi}")
 
 # # Karakter Sayısı Sayma
 
-# In[11]:
-
 
 cumle = input("Bir cümle giriniz: ")
 print(len(cumle))
@@ -66,7 +59,6 @@ print(len(cumle))
 
 # # Faktöriyel Hesaplama
 
-# In[15]:
 
 
 sayi = int(input("Faktöriyelinin alınmasını istediğiniz sayıyı giriniz: "))
@@ -78,8 +70,6 @@ print(f"{sayi}!={faktoriyel}")
 
 # # Kelime Ters Çevirme
 
-# In[16]:
-
 
 kelime = input("Lütfen bir kelime giriniz: ")
 tersi = kelime[::-1]
@@ -87,8 +77,6 @@ print("Kelimenin tersi: ", tersi)
 
 
 # # Asal sayıları bulma
-
-# In[22]:
 
 
 #Kaça kadar asal sayılar bulunsun diye bir sınır sayı vereceğiz.
@@ -105,8 +93,6 @@ for sayi in range(2,sinir+1):
         
 print(sinir, "değerine kadar olan asal sayılar: ", asallar)
 
-
-# In[23]:
 
 
 ust_sinir = int(input("Asal sayıları bulmak için bir üst sınır girin: "))
@@ -128,15 +114,11 @@ print("Asal sayılar:", asal_sayilar)
 
 # # Listedeki elemanları sıralama
 
-# In[25]:
-
 
 liste = [3,64,8,2,7558,87,75,5643,1]
 liste.sort()
 print("Listenin sıralı hali şu şekildedir: ", liste)
 
-
-# In[26]:
 
 
 liste = ["f","g","m","j"]
@@ -144,7 +126,7 @@ liste.sort()
 print("Listenin sıralı hali şu şekildedir: ", liste)
 
 
-# In[ ]:
+
 
 
 
